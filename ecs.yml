@@ -1,7 +1,7 @@
 ---
 - name: ECS Example | Provision all required infrastructure
-  hosts: ec
-#  connection: local
+  hosts: localhost
+  connection: local
   gather_facts: no
   roles:
     # Provision networking
